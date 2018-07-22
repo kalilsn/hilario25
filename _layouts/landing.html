@@ -5,9 +5,11 @@
   class: "bg-image"
 {% endresponsive_image_block %}
 
-<h2>{{ site.tagline }}</h2>
-<p class="platform">{{ content }}</p>
-<a href="https://secure.actblue.com/donate/hilariofor25" class="contribute button">Support the campaign</a>
-{% include form.html %}
+<div class="landing-info">
+  <h2>{{ site.tagline }}</h2>
+  <p class="platform">{{ content }}</p>
+  <a href="https://secure.actblue.com/donate/hilariofor25" class="contribute button">Support the campaign</a>
+  {% include form.html %}
+</div>
 
 {% include footer.html %}
