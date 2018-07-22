@@ -380,6 +380,7 @@
 
 
 <div class="landing-info">
+  <a href="https://secure.actblue.com/donate/hilariofor25" class="contribute button">Support the campaign</a>
   <h2>It’s our time.</h2>
   <p class="platform"><p>I am an educator, organizer, and Pilsen native working to champion working class families in Chicago’s City Council. It’s time the people of the 25th ward have a representative that will fight for all of our neighbors and not big money interests.</p>
 
@@ -387,19 +388,22 @@
 
 <p>It’s our time. Join our movement.</p>
 </p>
-  <a href="https://secure.actblue.com/donate/hilariofor25" class="contribute button">Support the campaign</a>
   <div class="volunteer-form-container">
   <div class="error">There was an error processing your submission. Please try disabling any adblockers and resubmitting, or use our <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOUginutSL90SKyznZqquKLLQS6ARqUFuVTXoXYv_QVOD4Dw/viewform?usp=sf_link">google form</a>.</div>
-  <div class="success">Thanks for signing up! We'll let you know how you can get involved.</div>
+  <div class="success">Thanks for signing up! We'll get in touch soon to let you know how you can get involved.</div>
   <form id="volunteer-form" class="volunteer-form">
-    <label for="volunteer-name">Name</label>
-    <input type="text" name="name" id="volunteer-name" class="full" required>
-    <label for="volunteer-email">Email</label>
-    <input type="email" name="email" id="volunteer-email" class="full" required>
-    <label for="volunteer-phone">Phone</label>
-    <input type="tel" name="phone" id="volunteer-phone" class="full" required>
-    <label for="volunteer-zip">Zip</label>
-    <input type="text" name="zip" id="volunteer-zip" class="half" pattern="[0-9]{5}">
+    <div class="form-group">
+      <input type="text" name="name" id="volunteer-name" class="form-control full" required placeholder="Name">
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" id="volunteer-email" class="form-control full" required placeholder="Email">
+    </div>
+    <div class="form-group">
+      <input type="tel" name="phone" id="volunteer-phone" class="form-control half" required placeholder="Phone number">
+    </div>
+    <div class="form-group">
+      <input type="text" name="zip" id="volunteer-zip" class="form-control half" pattern="[0-9]{5}" placeholder="Zip code">
+    </div>
     <button type="submit" href="#" class="submit button">Get involved</button>
   </form>
 </div>
