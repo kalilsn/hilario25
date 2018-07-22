@@ -6,7 +6,7 @@
 
 <div class="container">
 <div class="row justify-content-end">
-  <div class="col-md-8 logo">
+  <div class="col-md-7 logo">
   {% include logo.html %}
   </div>
   {% responsive_image_block %}
@@ -18,7 +18,7 @@
 <div class="row justify-content-end">
   <div class="col-md-6 landing-info">
     <a href="https://secure.actblue.com/donate/hilariofor25" class="contribute button">Support the campaign</a>
-    <h2>{{ site.tagline }}</h2>
+    <h2 id="tagline">{{ site.tagline }}</h2>
     <p class="platform">{{ content }}</p>
     {% include form.html %}
   </div>
