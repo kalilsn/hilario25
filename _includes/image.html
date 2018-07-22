@@ -3,4 +3,4 @@
 {% for i in resized %}/{{ i.path }} {{ i.width }}w{% if forloop.last == false %}, {% endif %}{% endfor %}
 {% endcapture %}
 
-<img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}">
+<img src="/{{ largest.path }}" alt="{{ alt }}" class="{{ class }}" srcset="{{ srcset | strip_newlines }}">

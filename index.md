@@ -1,6 +1,5 @@
 ---
 layout: landing
-background-image: "/img/landing-bg.jpg"
 ---
 I am an educator, organizer, and Pilsen native working to champion working class families in Chicago’s City Council. It’s time the people of the 25th ward have a representative that will fight for all of our neighbors and not big money interests.
 
