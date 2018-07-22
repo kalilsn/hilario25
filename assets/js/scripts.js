@@ -1,6 +1,7 @@
 $(function(){
   var $form = $('#volunteer-form'),
       $submit = $form.find('.submit'),
+      $error = $form.parent().find('.error'),
       url = 'https://script.google.com/macros/s/AKfycbyfz1cHGt6XQTiIZurutn_Fe3EiOQ1ljHU77tH_x7QQxzGHmBI/exec'
     ;
 
@@ -15,11 +16,12 @@ $(function(){
       dataType: 'json',
       data: data,
       success: function() {
-        $form.trigger('reset');
-        $form.find('.success').show();
+        $form.hide();
+        $error.hide();
+        $form.parent().find('.success').show();
       },
       error: function() {
-        $form.find('.error').show();
+        $error.show();
       },
     });
 
