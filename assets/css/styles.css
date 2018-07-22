@@ -3,20 +3,34 @@ red: #d4232b
 */
 
 body {
-  background-color: #d6e8ed;
+  overflow-x: hidden;
 }
+
 .bg-image {
   width: 100%;
-  position: fixed;
+  min-width: 1200px;
+}
+
+.row.bg {
+  position: absolute;
   z-index: -1;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.logo.row {
+  margin: 2em 0;
+}
+
+.logo .col {
+  padding: 0;
 }
 
 .container {
-  margin-right: 30px;
-}
-
-.logo {
-  padding: 25px 0px 25px 0px;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
 }
 
 .landing-info {
@@ -33,36 +47,37 @@ h2 {
   font-size: 25px;
   font-weight: 700;
   margin-top: 15px;
- }
+}
 
 input {
-  border-radius:.75em;
+  border-radius: 0.75em;
   box-shadow: none;
 }
 
 form-group {
   width: 100%;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
 }
 
 .button {
-  display:inline-block;
-  padding:0.5em 1.2em;
-  margin:0 0.3em 0.3em 0;
-  border-radius:.75em;
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.75em;
   box-sizing: border-box;
   text-decoration: none;
-  font-weight:600;
-  color:#FFFFFF;
-  background-color:#d4232b;
-  text-align:center;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #d4232b;
+  text-align: center;
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 .button:hover {
-  background-color:#94181e;
+  background-color: #94181e;
   text-decoration: none;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 
 .contribute {
@@ -78,4 +93,29 @@ form-group {
   display: none;
   font-size: 13px;
   font-weight: 500;
+}
+
+@media (max-width: 1199px) {
+  .row.bg {
+    position: relative;
+  }
+
+  .logo.row {
+    margin: 0;
+  }
+
+  .bg-image {
+    min-width: initial;
+  }
+
+  .slogan {
+    margin-top: -2em;
+    z-index: 2;
+    font-size: 45px;
+    margin-left: 1em;
+  }
+
+  .landing-info {
+    padding: 1.2em 2em;
+  }
 }
