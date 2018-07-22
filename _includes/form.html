@@ -3,13 +3,13 @@
   <div class="success">Thanks for signing up! We'll let you know how you can get involved.</div>
   <form id="volunteer-form" class="volunteer-form">
     <label for="volunteer-name">Name</label>
-    <input type="text" name="name" id="volunteer-name" class="full">
+    <input type="text" name="name" id="volunteer-name" class="full" required>
     <label for="volunteer-email">Email</label>
-    <input type="text" name="email" id="volunteer-email" class="full">
+    <input type="email" name="email" id="volunteer-email" class="full" required>
     <label for="volunteer-phone">Phone</label>
-    <input type="text" name="phone" id="volunteer-phone" class="full">
+    <input type="tel" name="phone" id="volunteer-phone" class="full" required>
     <label for="volunteer-zip">Zip</label>
-    <input type="text" name="zip" id="volunteer-zip" class="half">
+    <input type="text" name="zip" id="volunteer-zip" class="half" pattern="[0-9]{5}">
     <button type="submit" href="#" class="submit button">Get involved</button>
   </form>
 </div>
