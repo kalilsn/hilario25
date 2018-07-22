@@ -1,0 +1,19 @@
+language: ruby
+rvm:
+  - 2.5.1
+
+cache: bundler
+
+script: jekyll build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: _site
+  fqdn: hilariofor25.com
+  verbose: true
+  on:
+    branch: master
+
