@@ -59,3 +59,8 @@ input {
   text-decoration: none;
   color:#FFFFFF;
 }
+
+.volunteer-form-container .error,
+.volunteer-form-container .success {
+  display: none;
+}
