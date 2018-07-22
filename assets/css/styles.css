@@ -94,6 +94,10 @@ form-group {
     display:none;
   }
 
+  .logo {
+    padding: 5px 0px 5px 0px;
+  }
+
   .bg-image-mobile {
     display: block;
     width: 100%;
@@ -109,3 +113,4 @@ form-group {
   .landing-info {
     padding: 1.2em 2em;
   }
+}
