@@ -1,0 +1,46 @@
+title: Hilario for 25
+description: >-
+  I am an educator, organizer, and Pilsen native working to champion working
+  class families in Chicago’s City Council. It’s time the people of the 25th
+  ward have a representative that will fight for all of our neighbors and
+  not big money interests.
+
+baseurl: ""
+url: ""
+tagline: It’s our time.
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+markdown: kramdown
+plugins:
+  - jekyll-responsive-image
+  - jekyll-inline-svg
+
+responsive_image:
+  template: _includes/image.html
+  sizes:
+    - width: 1920
+    - width: 1400
+    - width: 1280
+    - width: 1024
+    - width: 600
+    - width: 400
+  base_path: uploads
+  output_path_format: assets/img/resized/%{width}/%{basename}
+
+svg:
+  optimize: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - src
+  - dist
