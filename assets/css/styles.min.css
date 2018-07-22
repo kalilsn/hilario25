@@ -1,0 +1,61 @@
+/*
+red: #d4232b
+*/
+
+.bg-image {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.logo {
+  width: 55%;
+  float: right;
+  position: absolute;
+  top: 3rem;
+  right: 16px;
+}
+
+.landing-info {
+  width: 45%;
+  float: right;
+  position: absolute;
+  top: 12rem;
+  right: 16px;
+  background-color: white;
+  padding:0.5em 1.2em;
+}
+
+p {
+  font-size: 13px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+input {
+  border-radius:.75em;
+  box-shadow: none;
+}
+
+.button {
+  display:inline-block;
+  padding:0.5em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:.75em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight:600;
+  color:#FFFFFF;
+  background-color:#d4232b;
+  text-align:center;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color:#94181e;
+  text-decoration: none;
+  color:#FFFFFF;
+}
