@@ -132,7 +132,11 @@ footer.row {
     padding: 1.2em 2em;
   }
 
-  footer {
+  footer.row {
     margin: 0;
+  }
+
+  .container-fluid {
+    padding-right: 0;
   }
 }
