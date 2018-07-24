@@ -17,7 +17,6 @@ body {
 }
 
 .container {
-  margin-right: 10px;
 }
 
 .logo {
@@ -38,37 +37,37 @@ h2 {
   font-size: 25px;
   font-weight: 700;
   margin-top: 15px;
- }
+}
 
 input {
-  border-radius:.75em;
+  border-radius: 0.75em;
   box-shadow: none;
 }
 
 form-group {
   width: 100%;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
 }
 
 .button {
-  display:inline-block;
-  padding:0.5em 1.2em;
-  margin:0 0.3em 0.3em 0;
-  border-radius:.75em;
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.75em;
   box-sizing: border-box;
   text-decoration: none;
-  font-weight:600;
-  color:#FFFFFF;
-  background-color:#d4232b;
-  text-align:center;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #d4232b;
+  text-align: center;
   transition: all 0.5s;
   border: none;
 }
 
 .button:hover {
-  background-color:#94181e;
+  background-color: #94181e;
   text-decoration: none;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 
 .contribute {
@@ -86,13 +85,27 @@ form-group {
   font-weight: 500;
 }
 
+footer {
+  margin-top: 2em;
+}
+
+.disclosure {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 1em;
+}
+
+.disclosure a {
+  color: #ccc;
+}
+
 @media (max-width: 575px) {
   body {
     background-color: #0084ac;
   }
 
   .bg-image {
-    display:none;
+    display: none;
   }
 
   .logo {
@@ -113,5 +126,9 @@ form-group {
 
   .landing-info {
     padding: 1.2em 2em;
+  }
+
+  footer {
+    margin: 0;
   }
 }
