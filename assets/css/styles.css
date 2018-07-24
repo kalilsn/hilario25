@@ -16,7 +16,8 @@ body {
   display: none;
 }
 
-.container {
+.container-fluid {
+  padding-right: 35px;
 }
 
 .logo {
