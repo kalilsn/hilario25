@@ -87,8 +87,10 @@ form-group {
   font-weight: 500;
 }
 
-footer {
+footer.row {
   margin-top: 2em;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .disclosure {
