@@ -89,7 +89,7 @@ form-group {
 }
 
 footer.row {
-  margin-top: 2em;
+  margin-top: 3em;
   margin-right: 0;
   margin-left: 0;
 }
@@ -98,6 +98,7 @@ footer.row {
   background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 1em;
+  font-size: 13px;
 }
 
 .disclosure a {
@@ -110,6 +111,16 @@ footer.row {
 
 .stretch-vertical {
   height: 100%;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    padding: 0rem 1.25rem 1rem 1.25rem;
+}
+
+.form-check-label {
+  font-size: 13px;
 }
 
 @media (max-width: 575px) {
