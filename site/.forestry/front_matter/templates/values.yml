@@ -3,6 +3,12 @@ label: values
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
 - type: field_group_list
   label: Values
   name: values
