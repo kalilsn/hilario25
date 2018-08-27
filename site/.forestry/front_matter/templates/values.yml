@@ -1,0 +1,18 @@
+---
+label: values
+hide_body: false
+is_partial: false
+fields:
+- type: field_group
+  label: Values
+  name: values
+  fields:
+  - type: text
+    name: heading
+    label: Heading
+  - type: textarea
+    name: text
+    label: text
+  - type: file
+    label: image
+    name: imageUrl
