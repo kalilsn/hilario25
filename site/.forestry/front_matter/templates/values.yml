@@ -3,16 +3,16 @@ label: values
 hide_body: false
 is_partial: false
 fields:
-- type: field_group
+- type: field_group_list
   label: Values
   name: values
   fields:
   - type: text
     name: heading
-    label: Heading
+    label: heading
   - type: textarea
     name: text
     label: text
   - type: file
-    label: image
     name: imageUrl
+    label: image
