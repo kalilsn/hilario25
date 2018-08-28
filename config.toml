@@ -1,0 +1,6 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Hilario for 25"
+
+[params]
+  sizes = ["1600", "1200", "800", "600", "400"]

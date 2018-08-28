@@ -1,6 +1,2 @@
 .DS_Store
-node_modules
-dist
-assets/img/resized
-npm-debug.log
-yarn-error.log
+public
