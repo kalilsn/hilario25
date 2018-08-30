@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <main class="container-fluid page-meet-hilario">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        {{ partial "responsive-image" (dict "context" . "name" "hilario.jpg" "alt" "Hilario Dominguez talking with a friend") }}
+      </div>
+      <div class="col-12 col-md-6">
+          <h1>Meet Hilario</h1>
+          {{ .Content }}
+      </div>
+    </div>
+  </main>
+{{ end }}

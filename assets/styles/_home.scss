@@ -1,0 +1,39 @@
+.page-home {
+  .headshot {
+    figure {
+      overflow: hidden;
+
+      img {
+        margin-top: -28%;
+      }
+    }
+  }
+
+  .tagline {
+    margin-top: -2em;
+    margin-bottom: 1em;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+    font-family: $font-family-base;
+    white-space: nowrap;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  @include media-breakpoint-up(sm) {
+    .tagline {
+      font-size: 4rem;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .tagline {
+      font-size: 5rem;
+    }
+  }
+}

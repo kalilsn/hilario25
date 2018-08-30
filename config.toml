@@ -4,3 +4,15 @@ title = "Hilario for 25"
 
 [params]
   sizes = ["1600", "1200", "800", "600", "400"]
+  tagline = "It's our time."
+
+[menu]
+  [[menu.main]]
+    name = "Meet Hilario"
+    url = "/meet-hilario/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Issues"
+    url = "/issues/"
+    weight = 10

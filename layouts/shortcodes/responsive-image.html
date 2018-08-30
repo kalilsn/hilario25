@@ -6,7 +6,7 @@
     srcset="{{ range $i, $size := $.Site.Params.sizes }}
       {{ ($src.Resize (printf "%v%v" $size "x")).RelPermalink }} {{ $size }}w{{ if $i }},
       {{ end }}{{ end }}"
-    src="{{ $src.RelPermalink }}" alt="{{ $altText }}"/>
+    src="{{ $src.RelPermalink }}" alt="{{ $altText }}" class="img-fluid"/>
 {{ if $caption }}
   <figcaption>
     <h4>{{ $caption }}</h4>
