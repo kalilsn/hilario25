@@ -1,12 +1,13 @@
 ---
 title: Housing as a Human Right
 anchor: housing
+image: issue-housing.jpg
 ---
 Equitable access to affordable, high quality housing, infrastructure, and community resources is essential for both individual and community well being. In the 25th Ward in particular, money from luxury real estate developers has taken over our political establishment - leading to rezonings that favor costly residences and amenities, pushing out small businesses and working families.
 
 **So what do we do?**
 
-The first step is simply recognizing **housing as a human right**. Period. Housing in Chicago has become a goldmine for wealthy developers instead of the fundamental, baseline resource it should be. When we say that housing is a human right, we mean that housing should be a resource for the public good, not a commodity or speculative asset. Most importantly, **it is a resource that should be controlled by the community itself. **
+The first step is simply recognizing **housing as a human right**. Period. Housing in Chicago has become a goldmine for wealthy developers instead of the fundamental, baseline resource it should be. When we say that housing is a human right, we mean that housing should be a resource for the public good, not a commodity or speculative asset. Most importantly, **it is a resource that should be controlled by the community itself.**
 
 As alderman, Hilario will…
 

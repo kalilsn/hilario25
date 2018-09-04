@@ -6312,38 +6312,38 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-p {
-  padding: 0 1em;
-  text-align: justify; }
-
 .navbar-dark .navbar-nav .nav-link {
   color: white; }
 
-.navbar .navbar-brand {
+.navbar.top-nav .navbar-brand {
   width: 70%; }
 
-.navbar .navbar-nav .nav-link.nav-item {
+.navbar.top-nav .navbar-nav .nav-link.nav-item {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 @media (min-width: 768px) {
-  .navbar {
+  .navbar.top-nav {
     border-bottom: 5px solid #76CCE5;
     height: 100px; }
-    .navbar .navbar-brand {
+    .navbar.top-nav .navbar-brand {
       width: 100px; }
-    .navbar .navbar-collapse {
+    .navbar.top-nav .navbar-collapse {
       height: 100%; }
-      .navbar .navbar-collapse .navbar-nav {
+      .navbar.top-nav .navbar-collapse .navbar-nav {
         height: 100%; }
-        .navbar .navbar-collapse .navbar-nav .nav-link {
+        .navbar.top-nav .navbar-collapse .navbar-nav .nav-link {
           line-height: 95px; }
-          .navbar .navbar-collapse .navbar-nav .nav-link:last-child {
+          .navbar.top-nav .navbar-collapse .navbar-nav .nav-link:last-child {
             background: #004869; }
-            .navbar .navbar-collapse .navbar-nav .nav-link:last-child:hover, .navbar .navbar-collapse .navbar-nav .nav-link:last-child:active {
+            .navbar.top-nav .navbar-collapse .navbar-nav .nav-link:last-child:hover, .navbar.top-nav .navbar-collapse .navbar-nav .nav-link:last-child:active {
               background: #004869; }
-          .navbar .navbar-collapse .navbar-nav .nav-link.active, .navbar .navbar-collapse .navbar-nav .nav-link:hover, .navbar .navbar-collapse .navbar-nav .nav-link:active {
+          .navbar.top-nav .navbar-collapse .navbar-nav .nav-link.active, .navbar.top-nav .navbar-collapse .navbar-nav .nav-link:hover, .navbar.top-nav .navbar-collapse .navbar-nav .nav-link:active {
             color: white;
             background: rgba(0, 0, 0, 0.2); } }
+
+p {
+  padding: 0 1em;
+  text-align: justify; }
 
 .page-home .headshot figure {
   overflow: hidden; }
@@ -6372,5 +6372,19 @@ p {
 @media (min-width: 768px) {
   .page-home .tagline {
     font-size: 5rem; } }
+
+.issues-content {
+  position: relative;
+  overflow-y: scroll;
+  height: calc(100vh - 100px); }
+
+.issues-sidebar .navbar {
+  border-right: 2px solid black; }
+
+.issues-sidebar .nav-item {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5em; }
+  .issues-sidebar .nav-item.active {
+    color: #004869; }
 
 /*# sourceMappingURL=styles.css.map */
