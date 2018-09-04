@@ -1,4 +1,4 @@
-{{ $src := ($.context.Site.GetPage "section" "uploads" ).Resources.GetMatch .name }}
+{{ $src := (.context.Site.GetPage "section" "uploads" ).Resources.GetMatch .name }}
 {{ $sizesLen := len .context.Site.Params.sizes }}
 <figure>
   <img

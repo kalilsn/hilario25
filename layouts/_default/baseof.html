@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head" . }}
-  <body>
+  <body class="page-{{ .Section }}{{ if .IsHome }}home{{ end }}">
     {{ partial "nav" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer" . }}
