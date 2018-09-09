@@ -1,11 +1,11 @@
 {{ define "main" }}
-<main class="container-fluid p-0">
-  <div class="row">
-    <div class="col-12 col-md-4 headshot">
+<main class="container-fluid p-0 p-md-5">
+  <div class="row m-0 p-0">
+    <div class="col-12 col-md-5 headshot">
       {{ partial "responsive-image" (dict "context" . "alt" .Params.alt "name" .Params.image) }}
       <h2 class="d-md-none tagline">{{ .Site.Params.tagline }}</h2>
     </div>
-    <div class="col-12 col-md-8">
+    <div class="col-12 col-md-7">
       <div class="row d-none d-md-block">
         {{ partial "wordmark" . }}
       </div>

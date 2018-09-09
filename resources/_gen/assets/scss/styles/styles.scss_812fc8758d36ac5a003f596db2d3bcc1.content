@@ -6323,8 +6323,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 768px) {
   .navbar.top-nav {
-    border-bottom: 5px solid #76CCE5;
-    height: 100px; }
+    border-bottom: 8px solid #76CCE5;
+    height: 83px; }
     .navbar.top-nav .navbar-brand {
       width: 100px; }
     .navbar.top-nav .navbar-collapse {
@@ -6332,7 +6332,7 @@ a.text-dark:hover, a.text-dark:focus {
       .navbar.top-nav .navbar-collapse .navbar-nav {
         height: 100%; }
         .navbar.top-nav .navbar-collapse .navbar-nav .nav-link {
-          line-height: 95px; }
+          line-height: 75px; }
           .navbar.top-nav .navbar-collapse .navbar-nav .nav-link:last-child {
             background: #004869; }
             .navbar.top-nav .navbar-collapse .navbar-nav .nav-link:last-child:hover, .navbar.top-nav .navbar-collapse .navbar-nav .nav-link:last-child:active {
@@ -6344,6 +6344,19 @@ a.text-dark:hover, a.text-dark:focus {
 p {
   padding: 0 1em;
   text-align: justify; }
+
+.signup {
+  box-shadow: #cccccc -3px 3px 3px 1px;
+  background: #F7F7F7;
+  padding: 2em;
+  height: 100%; }
+  .signup h3 {
+    color: #1BABD2; }
+  .signup .btn {
+    font-size: 1.5rem;
+    margin-left: auto;
+    color: red;
+    font-weight: bold; }
 
 .page-home .headshot figure {
   overflow: hidden; }
@@ -6361,7 +6374,7 @@ p {
   font-family: "Noto Serif";
   white-space: nowrap; }
 
-.page-home p {
+.page-home main p {
   font-size: 1.2rem;
   line-height: 2rem; }
 
@@ -6371,12 +6384,16 @@ p {
 
 @media (min-width: 768px) {
   .page-home .tagline {
-    font-size: 5rem; } }
+    font-size: 5rem; }
+  .page-home .headshot figure {
+    overflow: hidden; }
+    .page-home .headshot figure img {
+      margin-top: -20%; } }
 
 .issues-content {
   position: relative;
   overflow-y: scroll;
-  height: calc(100vh - 100px); }
+  height: calc(100vh - 83px); }
 
 .issues-sidebar .navbar {
   border-right: 2px solid black; }

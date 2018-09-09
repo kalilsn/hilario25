@@ -1,8 +1,11 @@
 @import "bootstrap-overrides";
 @import "../vendor/bootstrap/scss/bootstrap";
 
-@import "layout";
-@import "typography";
+@import "colors";
 @import "nav";
+@import "layout";
+@import "footer";
+@import "typography";
 @import "form";
 @import "home";
+@import "issues";

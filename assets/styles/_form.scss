@@ -1,0 +1,17 @@
+.signup {
+  box-shadow: #cccccc -3px 3px 3px 1px;
+  background: #F7F7F7;
+  padding: 2em;
+  height: 100%;
+
+  h3 {
+    color: $blue;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    margin-left: auto;
+    color: red;
+    font-weight: bold;
+  }
+}

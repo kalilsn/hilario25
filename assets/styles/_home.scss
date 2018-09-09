@@ -21,7 +21,7 @@
     white-space: nowrap;
   }
 
-  p {
+  main p {
     font-size: 1.2rem;
     line-height: 2rem;
   }
@@ -34,6 +34,17 @@
   @include media-breakpoint-up(md) {
     .tagline {
       font-size: 5rem;
+    }
+
+    .headshot {
+
+      figure {
+        overflow: hidden;
+
+        img {
+          margin-top: -20%;
+        }
+      }
     }
   }
 }

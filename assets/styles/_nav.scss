@@ -1,8 +1,11 @@
+$navbar-height: 75px;
+$navbar-border-height: 8px;
+
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
 
-.navbar {
+.navbar.top-nav {
 
   .navbar-brand {
     width: 70%;
@@ -14,10 +17,8 @@
   }
 
   @include media-breakpoint-up(md) {
-    $navbar-height: 95px;
-    $border-height: 5px;
-    border-bottom: $border-height solid $secondary;
-    height: $navbar-height + $border-height;
+    border-bottom: $navbar-border-height solid $secondary;
+    height: $navbar-height + $navbar-border-height;
 
     .navbar-brand {
       width: 100px;
