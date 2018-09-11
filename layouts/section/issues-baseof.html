@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head" . }}
+  <body data-spy="scroll" data-target="#issues-sidebar" data-offset="5" class="page-{{ .Section }}{{ if .IsHome }}home{{ end }}">
+    {{ partial "nav" . }}
+    {{ block "main" . }}{{ end }}
+
+    {{ $jquery := resources.Get "vendor/jquery-3.3.1.min.js" }}
+    <script src="{{ $jquery.Permalink }}"></script>
+    {{ $bootstrap := resources.Get "vendor/bootstrap/js/bootstrap.bundle.min.js" }}
+    <script src="{{ $bootstrap.Permalink }}"></script>
+    {{ $app := resources.Get "js/app.js" | minify | fingerprint }}
+    <script src="{{ $app.RelPermalink }}"></script>
+  </body>
+</html>
