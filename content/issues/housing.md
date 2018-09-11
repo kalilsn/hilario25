@@ -2,6 +2,7 @@
 title: Housing as a Human Right
 anchor: housing
 image: issue-housing.jpg
+weight: 10
 
 ---
 Equitable access to affordable, high quality housing, infrastructure, and community resources is essential for both individual and community well being. In the 25th Ward in particular, money from luxury real estate developers has taken over our political establishment - leading to rezonings that favor costly residences and amenities, pushing out small businesses and working families.
