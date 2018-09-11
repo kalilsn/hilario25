@@ -6392,15 +6392,15 @@ li {
     .page-home .headshot figure img {
       margin-top: -20%; } }
 
-.issues-content {
+go .issues-content {
   position: relative;
   height: calc(100vh - 66px); }
-  .issues-content h2 {
+  go .issues-content h2 {
     padding: 1rem 0; }
-  .issues-content figure {
+  go .issues-content figure {
     padding-top: 2rem; }
   @media (min-width: 992px) {
-    .issues-content p {
+    go .issues-content p {
       padding-right: 8rem; } }
 
 .issues-sidebar {
@@ -6416,5 +6416,13 @@ li {
       color: white;
       background-color: #004869;
       border-radius: .25rem; }
+
+.about h1 {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding-bottom: 1rem; }
+
+@media (min-width: 768px) {
+  .about {
+    padding-left: 1.5rem; } }
 
 /*# sourceMappingURL=styles.css.map */

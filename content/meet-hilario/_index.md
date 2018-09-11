@@ -1,5 +1,3 @@
-My name is Hilario Dominguez. I am…
-
 **...an educator.**
 
 After attending school at Johns Hopkins University, I returned to Pilsen to teach science at Whitney Young, my alma mater. I consider myself deeply fortunate to have had the opportunity to help guide my students through even a small piece of their education--but being reminded of Chicago Public Schools’ continued failure to provide the resources our students need to succeed showed me the way to making an even bigger impact on the ward I love.
@@ -17,4 +15,3 @@ I was born and raised in the Pilsen neighborhood. Growing up in the 25th Ward ta
 The people of the 25th Ward deserve better. It’s our time to take back our neighborhoods and build them into the ones we want to see for our children and grandchildren.
 
 I hope you’ll join me.
-

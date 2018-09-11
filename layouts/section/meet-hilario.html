@@ -5,12 +5,15 @@
         <div class="row mb-4">
           {{ partial "campaign-video" . }}
         </div>
-        <div class="row">
-          {{ partial "responsive-image" (dict "context" . "name" "hilario.jpg" "alt" "Hilario Dominguez talking with a friend") }}
+        <div class="row d-none d-sm-block">
+          {{ partial "responsive-image" (dict "context" . "name" "hilario.jpg" "alt" "Hilario Dominguez in Pilsen") }}
+        </div>
+        <div class="row d-none d-sm-block">
+          {{ partial "responsive-image" (dict "context" . "name" "hilario-handshake.jpg" "alt" "Hilario Dominguez shaking a constituent's hand") }}
         </div>
       </div>
-      <div class="col-12 col-md-6">
-          <h1>Meet Hilario</h1>
+      <div class="col-12 col-md-6 about">
+          <h1>My name is Hilario Dominguez. I am…</h1>
           {{ .Content }}
       </div>
     </div>
