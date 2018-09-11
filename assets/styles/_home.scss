@@ -26,6 +26,15 @@
     line-height: 2rem;
   }
 
+  main .wordmark {
+    overflow: hidden;
+    margin-bottom: 1.5em;
+
+    svg {
+      margin-top: -20px;
+    }
+  }
+
   @include media-breakpoint-up(sm) {
     .tagline {
       font-size: 4rem;
@@ -33,7 +42,15 @@
   }
   @include media-breakpoint-up(md) {
     .tagline {
-      font-size: 5rem;
+      font-size: 3rem;
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: .5em;
+    }
+
+    main p {
+      font-size: 1rem;
+      line-height: 1.7rem;
     }
 
     .headshot {
@@ -42,9 +59,15 @@
         overflow: hidden;
 
         img {
-          margin-top: -20%;
+          margin-top: 0;
         }
       }
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    main .wordmark svg {
+      margin-top: -30px;
     }
   }
 }

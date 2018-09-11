@@ -1,6 +1,6 @@
 <nav class="navbar top-nav navbar-expand-md navbar-dark bg-primary py-0 pr-0">
-  <a href="/" class="navbar-brand d-none d-md-block">{{ partial "logo" .}}</a>
-  <a href="/" class="navbar-brand d-md-none">{{ partial "wordmark" . }}</a>
+  <a href="/" class="navbar-brand d-none d-lg-block">{{ partial "logo" .}}</a>
+  <a href="/" class="navbar-brand d-lg-none">{{ partial "wordmark" . }}</a>
   <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -8,9 +8,9 @@
     <div class="navbar-nav ml-auto">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
-        <a class="nav-link nav-item mb-0 px-4 py-0 h5{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+        <a class="nav-link nav-item mb-md-0 px-md-4 py-md-0 h5{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
-      <a class="nav-link nav-item mb-0 px-4 py-0 h4" href="https://secure.actblue.com/donate/hilariofor25">Donate</a>
+      <a class="nav-link nav-item mb-md-0 px-md-4 py-md-0" href="https://secure.actblue.com/donate/hilariofor25">Donate</a>
     </div>
   </div>
 </nav>
