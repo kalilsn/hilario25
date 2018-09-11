@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/issues/housing/</loc>
+  </url>
+  
+  <url>
+    <loc>/issues/development/</loc>
+  </url>
+  
+  <url>
+    <loc>/issues/environmental-justice/</loc>
+  </url>
+  
+  <url>
+    <loc>/issues/fair-elections/</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
   </url>
   
@@ -21,22 +37,6 @@
   <url>
     <loc>/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/issues/environmental-justice/</loc>
-  </url>
-  
-  <url>
-    <loc>/issues/development/</loc>
-  </url>
-  
-  <url>
-    <loc>/issues/fair-elections/</loc>
-  </url>
-  
-  <url>
-    <loc>/issues/housing/</loc>
   </url>
   
   <url>
