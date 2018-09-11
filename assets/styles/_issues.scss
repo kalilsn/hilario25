@@ -1,21 +1,39 @@
-.issues-content {
+go .issues-content {
   position: relative;
-  overflow-y: scroll;
   height: calc(100vh - #{$navbar-height + $navbar-border-height});
+
+  h2 {
+    padding: 1rem 0;
+  }
+
+  figure {
+    padding-top: 2rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    p {
+      padding-right: 8rem;
+    }
+  }
 }
 
 .issues-sidebar {
+  position: fixed;
+  width: 250px;
+
   .navbar {
-    border-right: 2px solid black;
+    border-right: 1px solid black;
   }
 
   .nav-item {
     font-family: $font-family-sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
+    padding-bottom: .8rem;
 
     &.active {
-      // font-weight: bold;
-      color: $dark;
+      color: white;
+      background-color: $dark-blue;
+      border-radius: .25rem;
     }
   }
 }
