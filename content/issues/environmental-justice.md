@@ -2,6 +2,7 @@
 title: Environmental Justice
 anchor: environmental-justice
 image: issue-environmental-justice.jpg
+
 ---
 In Chicago, especially in areas on the southwest side like the 25th Ward, profit has long been prioritized over the health of people. Families and the 25th Ward are facing public health crises from pollution in the air they breathe to lead in the water they drink, because politicians have chosen corporate donations over communities and families.
 
