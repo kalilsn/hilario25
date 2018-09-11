@@ -2,6 +2,7 @@
 title: Housing as a Human Right
 anchor: housing
 image: issue-housing.jpg
+
 ---
 Equitable access to affordable, high quality housing, infrastructure, and community resources is essential for both individual and community well being. In the 25th Ward in particular, money from luxury real estate developers has taken over our political establishment - leading to rezonings that favor costly residences and amenities, pushing out small businesses and working families.
 
@@ -18,5 +19,3 @@ As alderman, Hilario will…
 * **Support tenant protections, strong safety nets, and organizations in the community invested in working to help residents avoid homelessness**, especially for youth, people with disabilities, those experiencing mental illness, LGBTQ individuals, veterans, and those returning from incarceration.
 
 * **Increase access at the community level to mechanisms such as land banks and trusts, limited equity cooperatives, and restricted deeds** that can be used to assist families in buying houses and prevent an unchecked or unreasonable increase in housing costs. This work will be done in collaboration with existing organizations like [Neighborhood Housing Services-Chicago](https://www.nhschicago.org/) which provide access to information and education to support and promote homeownership.
-
-

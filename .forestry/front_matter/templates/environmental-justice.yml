@@ -16,3 +16,5 @@ fields:
 - type: file
   label: Image
   name: image
+pages:
+- content/issues/housing.md
