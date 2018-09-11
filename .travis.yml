@@ -1,0 +1,27 @@
+sudo: true
+dist: trusty
+
+install:
+  - sudo apt-get --yes install snapd
+  - sudo snap install hugo --channel=extended
+
+script:
+  - /snap/bin/hugo
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: public
+  fqdn: hilariofor25.com
+  verbose: true
+  target-branch: test-gh-pages
+  on:
+    branch: hugo
+
+# TODO: make travis commit resources branch back to master for faster builds when images are added via forestry
+# after_success: |
+#   git add resources
+#   git -c user.name='travis' -c user.email='travis' commit -m "Update resources dir for caching; skip ci"
+#   git push origin
