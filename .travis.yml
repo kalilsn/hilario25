@@ -1,3 +1,5 @@
+language: bash
+
 script:
   - build/bin/hugo
 
