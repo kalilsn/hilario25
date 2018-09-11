@@ -22,7 +22,7 @@ deploy:
   verbose: true
   target-branch: test-gh-pages
   on:
-    branch: hugo
+    branch: master
 
 # TODO: make travis commit resources branch back to master for faster builds when images are added via forestry
 # after_success: |
