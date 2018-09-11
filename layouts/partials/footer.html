@@ -5,12 +5,4 @@
     </div>
   </div>
 </footer>
-{{ $jquery := resources.Get "vendor/jquery-3.3.1.min.js" }}
-<script src="{{ $jquery.Permalink }}"></script>
-{{ $bootstrap := resources.Get "vendor/bootstrap/js/bootstrap.bundle.min.js" }}
-<script src="{{ $bootstrap.Permalink }}"></script>
-{{ $app := resources.Get "js/app.js" | minify | fingerprint }}
-<script src="{{ $app.RelPermalink }}"></script>
-</body>
-
-</html>
+{{ partial "footer-scripts" . }}

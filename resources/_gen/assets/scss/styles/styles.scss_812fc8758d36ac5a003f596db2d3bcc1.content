@@ -6392,15 +6392,15 @@ li {
     .page-home .headshot figure img {
       margin-top: -20%; } }
 
-.issues-content {
+go .issues-content {
   position: relative;
   height: calc(100vh - 66px); }
-  .issues-content h2 {
+  go .issues-content h2 {
     padding: 1rem 0; }
-  .issues-content figure {
+  go .issues-content figure {
     padding-top: 2rem; }
   @media (min-width: 992px) {
-    .issues-content p {
+    go .issues-content p {
       padding-right: 8rem; } }
 
 .issues-sidebar {
