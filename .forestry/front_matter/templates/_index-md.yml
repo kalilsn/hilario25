@@ -12,3 +12,5 @@ fields:
   hidden: false
   default: ''
   description: Alt text for homepage image
+pages:
+- content/_index.md
