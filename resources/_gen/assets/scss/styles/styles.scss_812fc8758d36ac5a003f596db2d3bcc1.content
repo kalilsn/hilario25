@@ -6315,6 +6315,15 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-dark .navbar-nav .nav-link {
   color: white; }
 
+.navbar.top-nav .logo .bg {
+  fill: none; }
+
+.navbar.top-nav .wordmark .name {
+  fill: #76CCE5; }
+
+.navbar.top-nav .wordmark .letter-fill {
+  fill: white; }
+
 .navbar.top-nav .navbar-brand {
   width: 70%; }
 
