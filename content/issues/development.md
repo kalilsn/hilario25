@@ -2,6 +2,7 @@
 title: Equitable Progress and Development
 anchor: development
 image: issue-development.jpg
+
 ---
 Our ward is filled with vibrant neighborhoods that have been built by the residents, not developers. The residents of our community have already proven time and time again that they’re the best placed people to make decisions about development in our ward and neighborhoods. Hilario will use his authority as alderman to **ensure that zoning and development decisions are transparent and democratic**, countering attempts by moneyed interests to place profits over people.
 
