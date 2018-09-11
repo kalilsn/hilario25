@@ -1,12 +1,5 @@
-sudo: true
-dist: trusty
-
-install:
-  - sudo apt-get --yes install snapd
-  - sudo snap install hugo --channel=extended
-
 script:
-  - /snap/bin/hugo
+  - build/bin/hugo
 
 deploy:
   provider: pages
