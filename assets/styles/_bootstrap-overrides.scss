@@ -6,3 +6,18 @@ $dark: #004869;
 $font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-base: "Noto Serif";
 $headings-font-family: $font-family-base;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 450px,
+  md: 768px,
+  lg: 850px,
+  xl: 1050px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 820px,
+  xl: 1000px
+);
