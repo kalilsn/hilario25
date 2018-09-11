@@ -7,6 +7,20 @@ $navbar-border-height: 8px;
 
 .navbar.top-nav {
 
+  .logo .bg {
+    fill: none;
+  }
+
+  .wordmark {
+    .name {
+      fill: $light-blue;
+    }
+
+    .letter-fill {
+      fill: white;
+    }
+  }
+
   .navbar-brand {
     width: 70%;
   }
