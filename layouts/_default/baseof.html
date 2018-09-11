@@ -1,9 +1,0 @@
-<!doctype html>
-<html lang="en">
-  {{ partial "head" . }}
-  <body class="page-{{ .Section }}{{ if .IsHome }}home{{ end }}">
-    {{ partial "nav" . }}
-    {{ block "main" . }}{{ end }}
-    {{ partial "footer" . }}
-  </body>
-</html>
