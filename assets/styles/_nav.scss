@@ -49,6 +49,11 @@ $navbar-border-height: 6px;
     height: $navbar-height + $navbar-border-height;
     padding: 0.5rem 1rem;
 
+    .navbar-brand {
+      width: 40%;
+      min-width: 300px;
+    }
+
     .navbar-collapse {
       height: 100%;
 
@@ -68,10 +73,7 @@ $navbar-border-height: 6px;
 
             &:hover,
             &:active {
-              background: $dark;
-              font-weight: bold;
-              font-size: 2.5em;
-              transition: all .3s;
+              background: darken($dark, 10);
             }
           }
 
@@ -80,6 +82,7 @@ $navbar-border-height: 6px;
           &:active {
             color: white;
             background: rgba(0,0,0,0.2);
+            transition: all .3s;
           }
         }
       }
@@ -87,8 +90,8 @@ $navbar-border-height: 6px;
   }
   @include media-breakpoint-up(lg) {
     .navbar-brand {
-      width: 100px;
-      margin-left: 1em;
+      width: 40%;
+      min-width: 382px;
     }
   }
 }

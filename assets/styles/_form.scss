@@ -1,22 +1,40 @@
 .signup {
   background: #F7F7F7;
   padding: 2em;
-  height: 100%;
 
   @include media-breakpoint-up(md) {
     box-shadow: #cccccc -3px 3px 3px 1px;
   }
 
+  .required {
+    &:after {
+      margin-left: 5px;
+      content: "*";
+      color: $red;
+    }
+  }
+
+  label {
+    margin-top: .75em;
+  }
+  @include media-breakpoint-up(lg) {
+    label {
+      margin-top: 0;
+    }
+
+    .cta {
+      margin-bottom: .75em;
+    }
+  }
+
   .cta {
     color: $blue;
-    margin-bottom: .5em;
   }
 
   .btn {
-    font-size: 2rem;
+    font-size: 1.3rem;
     margin-left: auto;
-    color: $red;
-    font-weight: bold;
-    border: 1px solid $light-blue;
+    font-weight: 500;
+    background: $red;
   }
 }

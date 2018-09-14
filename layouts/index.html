@@ -1,23 +1,17 @@
 {{ define "main" }}
-<main class="container-fluid p-0 p-lg-2">
-  <div class="row m-0 p-0">
-    <div class="col-12 col-xl-4 d-md-none d-xl-block headshot p-0">
+<main class="container p-0">
+  <div class="row m-0">
+    <div class="col-12 image-container p-0">
       {{ partial "responsive-image" (dict "context" . "alt" .Params.alt "name" .Params.image) }}
-      <h2 class="d-md-none tagline">{{ .Site.Params.tagline }}</h2>
     </div>
-    <div class="col-12 col-xl-8 mt-md-5 mt-lg-0">
-      <div class="row d-none d-lg-block">
-        {{ partial "wordmark" . }}
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-5">
-          <h2 class="d-none d-md-block tagline">{{ .Site.Params.tagline }}</h2>
-          {{ .Content }}
-        </div>
-        <div class="col-12 col-md-7">
-          {{ partial "form" . }}
-        </div>
-      </div>
+  </div>
+  <div class="row m-0 px-3">
+    <div class="col-12 col-md-6 px-4 pl-md-5 pr-md-4 pl-xxl-5 ml-xxl-5">
+      <h2 class="tagline">{{ .Site.Params.tagline }}</h2>
+      {{ .Content }}
+    </div>
+    <div class="col-12 col-md-6 ml-xxl-5 col-xxl-5">
+      {{ partial "form" . }}
     </div>
   </div>
 </main>
