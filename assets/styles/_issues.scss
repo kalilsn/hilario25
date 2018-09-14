@@ -1,25 +1,26 @@
-go .issues-content {
+// .page-issues {
+//   .title {
+//     text-transform: uppercase;
+//     color: $red;
+
+//   }
+// }
+
+.issues-content {
   position: relative;
-  height: calc(100vh - #{$navbar-height + $navbar-border-height});
 
   h2 {
     padding: 1rem 0;
   }
 
-  figure {
+  figure:not(:first-child) {
     padding-top: 2rem;
-  }
-
-  @include media-breakpoint-up(lg) {
-    p {
-      padding-right: 8rem;
-    }
   }
 }
 
 .issues-sidebar {
   position: fixed;
-  width: 250px;
+  top: 20%;
 
   .navbar {
     border-right: 1px solid black;

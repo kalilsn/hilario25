@@ -1,10 +1,9 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head" . }}
-  <body data-spy="scroll" data-target="#issues-sidebar" data-offset="5" class="page-{{ .Section }}{{ if .IsHome }}home{{ end }}">
+  <body data-spy="scroll" data-target="#issues-sidebar" data-offset="500" class="page-{{ .Section }}{{ if .IsHome }}home{{ end }}">
     {{ partial "nav" . }}
     {{ block "main" . }}{{ end }}
-
-    {{ partial "footer-scripts" . }}
+    {{ partial "footer" . }}
   </body>
 </html>
