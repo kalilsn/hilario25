@@ -2,10 +2,6 @@
   background: #F7F7F7;
   padding: 2em;
 
-  @include media-breakpoint-up(md) {
-    box-shadow: #cccccc -3px 3px 3px 1px;
-  }
-
   .required {
     &:after {
       margin-left: 5px;
@@ -28,7 +24,7 @@
   }
 
   .cta {
-    color: $blue;
+    color: $dark-blue;
   }
 
   .btn {
@@ -36,5 +32,13 @@
     margin-left: auto;
     font-weight: 500;
     background: $red;
+  }
+
+  @include media-breakpoint-up(md) {
+    box-shadow: #cccccc -3px 3px 3px 1px;
+
+    .cta {
+      color: $blue;
+    }
   }
 }

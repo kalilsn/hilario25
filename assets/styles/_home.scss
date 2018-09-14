@@ -25,15 +25,7 @@
     line-height: 1.5rem;
   }
 
-  h4 {
-    color: $red;
-  }
-
   @include media-breakpoint-up(md) {
-    h4 {
-      color: $blue;
-    }
-
     .signup {
       margin-top: -40%;
     }

@@ -6830,9 +6830,6 @@ h3, h4, h5 {
 .signup {
   background: #F7F7F7;
   padding: 2em; }
-  @media (min-width: 768px) {
-    .signup {
-      box-shadow: #cccccc -3px 3px 3px 1px; } }
   .signup .required:after {
     margin-left: 5px;
     content: "*";
@@ -6845,12 +6842,17 @@ h3, h4, h5 {
     .signup .cta {
       margin-bottom: .75em; } }
   .signup .cta {
-    color: #1BABD2; }
+    color: #004869; }
   .signup .btn {
     font-size: 1.3rem;
     margin-left: auto;
     font-weight: 500;
     background: #E81D26; }
+  @media (min-width: 768px) {
+    .signup {
+      box-shadow: #cccccc -3px 3px 3px 1px; }
+      .signup .cta {
+        color: #1BABD2; } }
 
 .page-home .headshot figure {
   overflow: hidden; }
@@ -6868,12 +6870,7 @@ h3, h4, h5 {
 .page-home main p {
   line-height: 1.5rem; }
 
-.page-home h4 {
-  color: #E81D26; }
-
 @media (min-width: 768px) {
-  .page-home h4 {
-    color: #1BABD2; }
   .page-home .signup {
     margin-top: -40%; }
   .page-home .image-container .img-fluid {
