@@ -5,3 +5,13 @@ p {
 li {
   list-style: square outside none;
 }
+
+
+.img-fluid {
+  padding: 1em;
+}
+@include media-breakpoint-up(md) {
+  .img-fluid {
+    padding: 1em 2em;
+  }
+}

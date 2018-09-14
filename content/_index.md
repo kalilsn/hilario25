@@ -1,5 +1,5 @@
 ---
-image: hilario-headshot.jpg
+image: home-bg.jpg
 alt: Hilario Dominguez smiling
 
 ---

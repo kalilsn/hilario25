@@ -1,7 +1,7 @@
 <head>
   <title>{{ if .Title }}{{ .Title }} | {{ end }}Hilario for 25</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700|Roboto:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   {{ if .Site.IsServer }}
     {{ $cssOpts := (dict "targetPath" "styles/styles.css" "enableSourceMap" true ) }}
     {{ $styles := resources.Get "styles/styles.scss" | toCSS $cssOpts }}

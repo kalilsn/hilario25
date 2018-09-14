@@ -1,20 +1,29 @@
 {{ define "main" }}
-  <main class="container-fluid">
-    <div class="row p-5">
-      <div class="col-12 col-md-6">
-        <div class="row mb-4">
-          {{ partial "campaign-video" . }}
+  <aside class="campaign-video row my-4">
+    <div class="m-auto col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7">
+      {{ partial "campaign-video" . }}
+    </div>
+  </aside>
+  <main class="container">
+    <div class="row p-3 p-md-5">
+      <div class="col-12 m-auto col-md-10 col-xxl-8 about">
+        <h2 class="text-center mb-4">My name is Hilario Dominguez. I am…</h2>
+        {{ $rows := split .RawContent "+++" }}
+        <div class="row">
+          {{ index $rows 0 | markdownify }}
         </div>
-        <div class="row d-none d-md-block">
+        <div class="row">
           {{ partial "responsive-image" (dict "context" . "name" "hilario.jpg" "alt" "Hilario Dominguez in Pilsen") }}
+          </div>
+        <div class="row">
+          {{ index $rows 1 | markdownify }}
         </div>
-        <div class="row d-none d-md-block d-lg-none">
+        <div class="row">
           {{ partial "responsive-image" (dict "context" . "name" "hilario-handshake.jpg" "alt" "Hilario Dominguez shaking a constituent's hand") }}
         </div>
-      </div>
-      <div class="col-12 col-md-6 about">
-          <h1>My name is Hilario Dominguez. I am…</h1>
-          {{ .Content }}
+        <div class="row">
+          {{ index $rows 2 | markdownify }}
+        </div>
       </div>
     </div>
   </main>
