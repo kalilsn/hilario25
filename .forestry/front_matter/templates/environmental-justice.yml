@@ -17,7 +17,7 @@ fields:
   label: Image
   name: image
 pages:
+- content/issues/housing.md
 - content/issues/fair-elections.md
 - content/issues/development.md
 - content/issues/environmental-justice.md
-- content/issues/housing.md
