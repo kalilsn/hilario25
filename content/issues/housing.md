@@ -14,6 +14,9 @@ The first step is simply recognizing **housing as a human right**. Period. Housi
 As alderman, Hilario will…
 
 * Push for legislation that would **expand access to affordable housing** by increasing the number of affordable units required in new developments, ensuring that those units are on-site (except in cases approved by the community), and eliminating the option for developers to opt out by paying a fine.
+
 * Advocate for legislation in Springfield to repeal the Rent Control Preemption Act and support local community organizations in the effort to **lift the ban on rent control**.
+
 * **Support tenant protections, strong safety nets, and organizations in the community invested in working to help residents avoid homelessness**, especially for youth, people with disabilities, those experiencing mental illness, LGBTQ individuals, veterans, and those returning from incarceration.
+
 * **Increase access at the community level to mechanisms such as land banks and trusts, limited equity cooperatives, and restricted deeds** that can be used to assist families in buying houses and prevent an unchecked or unreasonable increase in housing costs. This work will be done in collaboration with existing organizations like [Neighborhood Housing Services-Chicago](https://www.nhschicago.org/) which provide access to information and education to support and promote homeownership.
