@@ -20,7 +20,7 @@ deploy:
   local-dir: public
   fqdn: hilariofor25.com
   verbose: true
-  target-branch: test-gh-pages
+  target-branch: gh-pages
   on:
     branch: master
 
