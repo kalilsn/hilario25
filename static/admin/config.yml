@@ -10,9 +10,11 @@ collections:
     label: 'Issues'
     folder: 'content/issues'
     create: true
+    format: 'yaml-frontmatter'
     fields:
       - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Anchor Link', name: 'anchor', widget: 'string', pattern: ['[a-Z].*', 'Anchor link must start with a letter']}
       - {label: 'Image', name: 'image', widget: 'image'}
       - {label: 'Alt Text', name: 'alt', widget: 'string'}
       - {label: 'Weight', name: 'weight', widget: 'number', valuetype: 'int', hint: 'Weight determines the order of the issues on the page. A lower weight issue is placed higher on the page.'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
