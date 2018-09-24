@@ -9,7 +9,7 @@ publish_mode: editorial_workflow
 
 collections:
   - name: 'issues'
-    label: 'Issue'
+    label: 'Issues'
     folder: 'content/issues'
     create: true
     format: 'yaml-frontmatter'
@@ -21,8 +21,8 @@ collections:
       - {label: 'Weight', name: 'weight', widget: 'number', valuetype: 'int', hint: 'Weight determines the order of the issues on the page. A lower weight issue is placed higher on the page.'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
 
-  - name: 'pages'
-    label: 'Page'
+  - name: 'meet-hilario'
+    label: 'Meet Hilario'
     files:
       - name: 'meet-hilario'
         label: 'Meet Hilario'
@@ -43,6 +43,9 @@ collections:
               - {label: 'Hilario is:', name: 'header', widget: 'string'}
               - {label: 'Content', name: 'content', widget: 'markdown'}
 
+  - name: 'home'
+    label: 'Homepage'
+    files:
       - name: 'home'
         label: 'Homepage'
         file: 'content/_index.md'
