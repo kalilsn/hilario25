@@ -33,6 +33,8 @@ collections:
             name: 'sections'
             widget: 'list'
             fields:
+              - {label: 'Hilario is:', name: 'header', widget: 'string'}
+              - {label: 'Content', name: 'content', widget: 'markdown'}
               - label: 'Image'
                 name: 'image'
                 widget: object
@@ -40,8 +42,6 @@ collections:
                 fields:
                   - {label: 'Image', name: 'image', widget: 'image'}
                   - {label: 'Alt Text', name: 'alt', widget: 'string'}
-              - {label: 'Hilario is:', name: 'header', widget: 'string'}
-              - {label: 'Content', name: 'content', widget: 'markdown'}
 
   - name: 'home'
     label: 'Homepage'
