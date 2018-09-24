@@ -5,9 +5,11 @@ backend:
 media_folder: 'content/uploads'
 public_folder: '/uploads'
 
+publish_mode: editorial_workflow
+
 collections:
   - name: 'issues'
-    label: 'Issues'
+    label: 'Issue'
     folder: 'content/issues'
     create: true
     format: 'yaml-frontmatter'
@@ -18,3 +20,34 @@ collections:
       - {label: 'Alt Text', name: 'alt', widget: 'string'}
       - {label: 'Weight', name: 'weight', widget: 'number', valuetype: 'int', hint: 'Weight determines the order of the issues on the page. A lower weight issue is placed higher on the page.'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
+
+  - name: 'pages'
+    label: 'Page'
+    files:
+      - name: 'meet-hilario'
+        label: 'Meet Hilario'
+        file: 'content/meet-hilario/_index.md'
+        format: 'yaml-frontmatter'
+        fields:
+          - label: 'Sections'
+            name: 'sections'
+            widget: 'list'
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: object
+                required: false
+                fields:
+                  - {label: 'Image', name: 'image', widget: 'image'}
+                  - {label: 'Alt Text', name: 'alt', widget: 'string'}
+              - {label: 'Hilario is:', name: 'header', widget: 'string'}
+              - {label: 'Content', name: 'content', widget: 'markdown'}
+
+      - name: 'home'
+        label: 'Homepage'
+        file: 'content/_index.md'
+        format: 'yaml-frontmatter'
+        fields:
+          - {label: 'Image', name: 'image', widget: 'image'}
+          - {label: 'Alt Text', name: 'alt', widget: 'string'}
+          - {label: 'Body', name: 'body', widget: 'markdown'}
