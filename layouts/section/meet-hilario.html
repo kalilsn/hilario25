@@ -8,22 +8,23 @@
     <div class="row p-3 p-md-5">
       <div class="col-12 m-auto col-md-10 col-xxl-8 about">
         <h2 class="text-center mb-4">My name is Hilario Dominguez. I am…</h2>
-        {{ $rows := split .RawContent "+++" }}
-        <div class="row">
-          {{ index $rows 0 | markdownify }}
-        </div>
-        <div class="row">
-          {{ partial "responsive-image" (dict "context" . "name" "hilario.jpg" "alt" "Hilario Dominguez in Pilsen") }}
+        {{ range .Params.sections }}
+          <div class="row">
+            <h3 id="{{ .header | urlize }}">...{{ .header }}.</h3>
+            {{/* markdownify strips <p> tag if it's only 1 paragraph, see https://github.com/gohugoio/hugo/issues/3040#issuecomment-352190818 */}}
+            {{ $content := .content | markdownify }}
+            {{ if strings.Contains $content "<p>" }}
+              {{ $content }}
+            {{ else }}
+              <p>{{ $content }}</p>
+            {{ end }}
           </div>
-        <div class="row">
-          {{ index $rows 1 | markdownify }}
-        </div>
-        <div class="row">
-          {{ partial "responsive-image" (dict "context" . "name" "hilario-handshake.jpg" "alt" "Hilario Dominguez shaking a constituent's hand") }}
-        </div>
-        <div class="row">
-          {{ index $rows 2 | markdownify }}
-        </div>
+          {{ with .image }}
+            <div class="row">
+              {{ partial "responsive-image" (dict "context" $ "name" .image "alt" .alt) }}
+            </div>
+          {{ end }}
+        {{ end }}
       </div>
     </div>
   </main>
