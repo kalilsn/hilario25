@@ -33,4 +33,7 @@
   {{ $img := ($.Site.GetPage "/").Params.image }}
   {{ $resource := (($.Site.GetPage "section" "uploads").Resources.GetMatch $img).Resize "1200x" }}
   <meta name="twitter:image" content="{{ $resource.Permalink }}">
+
+  <!-- Netlify identity -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>

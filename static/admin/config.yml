@@ -1,0 +1,56 @@
+backend:
+  name: 'git-gateway'
+  branch: 'master'
+
+media_folder: 'content/uploads'
+public_folder: '/uploads'
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: 'issues'
+    label: 'Issues'
+    folder: 'content/issues'
+    create: true
+    format: 'yaml-frontmatter'
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Anchor Link', name: 'anchor', widget: 'string', pattern: ['[a-Z].*', 'Anchor link must start with a letter']}
+      - {label: 'Image', name: 'image', widget: 'image'}
+      - {label: 'Alt Text', name: 'alt', widget: 'string'}
+      - {label: 'Weight', name: 'weight', widget: 'number', valuetype: 'int', hint: 'Weight determines the order of the issues on the page. A lower weight issue is placed higher on the page.'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+
+  - name: 'meet-hilario'
+    label: 'Meet Hilario'
+    files:
+      - name: 'meet-hilario'
+        label: 'Meet Hilario'
+        file: 'content/meet-hilario/_index.md'
+        format: 'yaml-frontmatter'
+        fields:
+          - label: 'Sections'
+            name: 'sections'
+            widget: 'list'
+            fields:
+              - {label: 'Hilario is:', name: 'header', widget: 'string'}
+              - {label: 'Content', name: 'content', widget: 'markdown'}
+              - label: 'Image'
+                name: 'image'
+                widget: object
+                required: false
+                fields:
+                  - {label: 'Image', name: 'image', widget: 'image'}
+                  - {label: 'Alt Text', name: 'alt', widget: 'string'}
+
+  - name: 'home'
+    label: 'Homepage'
+    files:
+      - name: 'home'
+        label: 'Homepage'
+        file: 'content/_index.md'
+        format: 'yaml-frontmatter'
+        fields:
+          - {label: 'Image', name: 'image', widget: 'image'}
+          - {label: 'Alt Text', name: 'alt', widget: 'string'}
+          - {label: 'Body', name: 'body', widget: 'markdown'}
