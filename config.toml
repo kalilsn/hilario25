@@ -16,3 +16,8 @@ title = "Hilario for 25"
     name = "Issues"
     url = "/issues/"
     weight = 10
+
+  [[menu.main]]
+    name = "Volunteer"
+    url = "https://docs.google.com/forms/d/e/1FAIpQLSeb3va4ttqj2YEKoRes0-23etK68Qk9SR3v1zAxI76dWg1fKg/viewform"
+    weight = 20
