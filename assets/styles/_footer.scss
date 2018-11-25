@@ -1,3 +1,25 @@
-.footer {
+footer {
+  .social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 
+    a {
+      width: 2em;
+      margin-right: 1.5em;
+
+      &:last-child {
+        margin-right: none;
+      }
+    }
+  }
+
+  .email {
+    font-weight: bold;
+  }
+
+  .address {
+    display: block;
+    font-style: italic;
+  }
 }
