@@ -6764,7 +6764,8 @@ a.text-dark:hover, a.text-dark:focus {
       padding: 10px 20px;
       color: #004869;
       font-size: 1.3em;
-      margin: 0; }
+      margin: 0;
+      white-space: nowrap; }
       .navbar.top-nav .navbar-nav .nav-link.nav-item:hover, .navbar.top-nav .navbar-nav .nav-link.nav-item:active, .navbar.top-nav .navbar-nav .nav-link.nav-item.active {
         background: #e1f4f9; }
   @media (min-width: 768px) {
