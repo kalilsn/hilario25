@@ -6811,6 +6811,10 @@ li {
   .img-fluid {
     padding: 1em 2em; } }
 
+.social {
+  width: 5%;
+  block: inline; }
+
 .sans-serif {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
