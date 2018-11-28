@@ -13,7 +13,9 @@
       <div class="offset-md-4 col-md-8 col-xl-7 col-xxl-5 col-12">
         <div class="issues-content px-3 pt-3">
           {{ range .Pages.ByWeight }}
-            {{ partial "responsive-image" (dict "context" $ "alt" .Params.alt "name" .Params.image) }}
+            {{ if .Params.image }}
+              {{ partial "responsive-image" (dict "context" $ "alt" .Params.alt "name" .Params.image) }}
+            {{ end }}
             <h2 id={{ .Params.anchor }}>{{ .Title }}</h2>
             {{ .Content }}
           {{ end }}
