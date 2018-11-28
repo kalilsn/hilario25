@@ -1,6 +1,7 @@
 ---
 title: Good Jobs and Living Wages
 anchor: jobs
+image: issue-jobs.jpg
 weight: 25
 
 ---
